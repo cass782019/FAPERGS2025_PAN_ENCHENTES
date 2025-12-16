@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# OS
+Thumbs.db
+desktop.ini
+
+# Datasets CSV (muito grandes para GitHub)
+# Disponibilizar via Google Drive, Zenodo ou similar
+*.csv
+06_dados/**/*.csv
+06_dados/processados/*.csv
+06_dados/amostras/*.csv
+
+# NOTA IMPORTANTE:
+# Modelos .joblib e imagens .png SÃO incluídos (via Git LFS)
+# CSVs são muito grandes e devem ser baixados separadamente
+
